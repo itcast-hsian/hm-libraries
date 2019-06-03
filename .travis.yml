@@ -26,4 +26,4 @@ env:
   global:
     - GH_USER: itcast-hsian
     - GH_REF: hm-libraries
-    - DIST: out
+    - DIST: lib
