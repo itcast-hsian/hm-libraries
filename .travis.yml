@@ -17,7 +17,7 @@ notifications:
   email: false
 
 script:
-  - npm docs
+  - npm run docs
   
 after_success:
   - bash ./scripts/deploy.sh
