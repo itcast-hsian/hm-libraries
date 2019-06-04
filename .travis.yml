@@ -27,4 +27,4 @@ env:
     - EMAIL: 541510140@qq.com
     - GH_USER: itcast-hsian
     - GH_REF: hm-libraries
-    - DIST: lib
+    - DIST: out
