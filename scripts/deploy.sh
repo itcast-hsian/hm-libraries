@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 if [[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]]; then
-
 echo "Starting to update gh-pages\n"
 
 #copy data we're interested in to other place
