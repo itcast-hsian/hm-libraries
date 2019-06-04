@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "docs:default": "jsdoc lib/utils",
-    "docs": "jsdoc lib/utils -t ./node_modules/ink-docstrap/template"
+    "docs": "jsdoc lib/utils -t ./node_modules/ink-docstrap/template",
+    "test": "cross-env process.env.NODE_ENV=test jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
     "jsdoc": "^3.6.2"
   },
   "dependencies": {
